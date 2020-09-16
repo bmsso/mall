@@ -1,0 +1,18 @@
+dubbo:
+  protocol:
+  #协议名称
+    name: dubbo
+  #发布协议端口
+    port: 20880
+  #扫描包
+  scan:
+    base-packages: com.bmsso.sages.sages.app
+  #注册地址，交给spirng-cloud
+  registry:
+    address: spring-cloud://localhost
+#注册地址配置
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.25.181:8848

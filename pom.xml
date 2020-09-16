@@ -17,6 +17,9 @@
         <module>mall-admin</module>
         <module>mall-search</module>
         <module>mall-portal</module>
+        <module>socsso-admin</module>
+        <module>sages-management</module>
+        <module>bmsso-common</module>
     </modules>
 
     <parent>
